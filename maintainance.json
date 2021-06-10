@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerService/managedClusters/maintenanceConfigurations",
+  "apiVersion": "2021-03-01",
+  "properties": {
+    "timeInWeek": [
+      {
+        "day": "string",
+        "hourSlots": [
+          "integer"
+        ]
+      }
+    ],
+    "notAllowedTime": [
+      {
+        "start": "string",
+        "end": "string"
+      }
+    ]
+  }
+}

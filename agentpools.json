@@ -1,0 +1,93 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerService/managedClusters/agentPools",
+  "apiVersion": "2021-03-01",
+  "properties": {
+    "count": "integer",
+    "vmSize": "string",
+    "osDiskSizeGB": "integer",
+    "osDiskType": "string",
+    "kubeletDiskType": "string",
+    "vnetSubnetID": "string",
+    "podSubnetID": "string",
+    "maxPods": "integer",
+    "osType": "string",
+    "osSKU": "string",
+    "maxCount": "integer",
+    "minCount": "integer",
+    "enableAutoScaling": "boolean",
+    "type": "string",
+    "mode": "string",
+    "orchestratorVersion": "string",
+    "upgradeSettings": {
+      "maxSurge": "string"
+    },
+    "availabilityZones": [
+      "string"
+    ],
+    "enableNodePublicIP": "boolean",
+    "nodePublicIPPrefixID": "string",
+    "scaleSetPriority": "string",
+    "scaleSetEvictionPolicy": "string",
+    "spotMaxPrice": "number",
+    "tags": {},
+    "nodeLabels": {},
+    "nodeTaints": [
+      "string"
+    ],
+    "proximityPlacementGroupID": "string",
+    "kubeletConfig": {
+      "cpuManagerPolicy": "string",
+      "cpuCfsQuota": "boolean",
+      "cpuCfsQuotaPeriod": "string",
+      "imageGcHighThreshold": "integer",
+      "imageGcLowThreshold": "integer",
+      "topologyManagerPolicy": "string",
+      "allowedUnsafeSysctls": [
+        "string"
+      ],
+      "failSwapOn": "boolean",
+      "containerLogMaxSizeMB": "integer",
+      "containerLogMaxFiles": "integer",
+      "podMaxPids": "integer"
+    },
+    "linuxOSConfig": {
+      "sysctls": {
+        "netCoreSomaxconn": "integer",
+        "netCoreNetdevMaxBacklog": "integer",
+        "netCoreRmemDefault": "integer",
+        "netCoreRmemMax": "integer",
+        "netCoreWmemDefault": "integer",
+        "netCoreWmemMax": "integer",
+        "netCoreOptmemMax": "integer",
+        "netIpv4TcpMaxSynBacklog": "integer",
+        "netIpv4TcpMaxTwBuckets": "integer",
+        "netIpv4TcpFinTimeout": "integer",
+        "netIpv4TcpKeepaliveTime": "integer",
+        "netIpv4TcpKeepaliveProbes": "integer",
+        "netIpv4TcpkeepaliveIntvl": "integer",
+        "netIpv4TcpTwReuse": "boolean",
+        "netIpv4IpLocalPortRange": "string",
+        "netIpv4NeighDefaultGcThresh1": "integer",
+        "netIpv4NeighDefaultGcThresh2": "integer",
+        "netIpv4NeighDefaultGcThresh3": "integer",
+        "netNetfilterNfConntrackMax": "integer",
+        "netNetfilterNfConntrackBuckets": "integer",
+        "fsInotifyMaxUserWatches": "integer",
+        "fsFileMax": "integer",
+        "fsAioMaxNr": "integer",
+        "fsNrOpen": "integer",
+        "kernelThreadsMax": "integer",
+        "vmMaxMapCount": "integer",
+        "vmSwappiness": "integer",
+        "vmVfsCachePressure": "integer"
+      },
+      "transparentHugePageEnabled": "string",
+      "transparentHugePageDefrag": "string",
+      "swapFileSizeMB": "integer"
+    },
+    "enableEncryptionAtHost": "boolean",
+    "enableFIPS": "boolean",
+    "gpuInstanceProfile": "string"
+  }
+}

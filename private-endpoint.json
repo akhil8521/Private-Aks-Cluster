@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerService/managedClusters/privateEndpointConnections",
+  "apiVersion": "2021-03-01",
+  "properties": {
+    "privateEndpoint": {
+      "id": "string"
+    },
+    "privateLinkServiceConnectionState": {
+      "status": "string",
+      "description": "string"
+    }
+  }
+}
